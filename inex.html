@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-list-tt-2</title>
+    <link rel="shortcut icon" href="pic/icon.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6cdea705c9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="theme__wrapper">
+        <div class="theme__block">
+            <button class="theme__btn" onclick="BtnTheme()">
+                <i class="fa-solid fa-moon theme__icon-moon" id="themeIconId"></i>
+
+            </button>
+        </div>
+    </div>
+
+
+    <div class="header">
+        <div class="header__h-wrapper">
+            <div class="header__h-block">
+                <h1 class="header__h">
+                    TodoList
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="btn">
+        <div class="btn__add-wrapper">
+            <button class="btn-add" id="btn-add-g" onclick="BtnAddTodoList()">
+                Add task list
+            </button>
+        </div>
+
+        <div class="btn__rem-wrapper">
+            <button class="btn-rem" id="btn-rem-g" onclick="BtnRemoveTodoList()">
+                Delete last task
+            </button>
+        </div>
+    </div>
+
+    <div class="todolist-all" id="TodoListAll">
+        <!-- <div class="todolist-one" id="TodoList${indext}">
+            <div class="todolist-list-wrapper">
+                <div class="todolist-list-block">
+                    <ol class="todolist-list" id="TodoListOl${indext}">
+
+                    </ol>
+                </div>
+            </div>
+            <div class="todolist__input-wrapper">
+                <input class="todolist__input" type="text" id="TodoListInp${indext}" placeholder="todo task">
+            </div>
+            <div class="todolist__btn-wrapper">
+                <button class="todolist__btn" id="TodoListBtn" onclick="TodoListBtnAdd(${indext})">Add task</button>
+            </div>
+
+            <div class="todolist__btn-rem-wrapper">
+                <button class="todolist__btn-rem" id="TodoListBtnRem" onclick="TodoListBtnRem(${indext})">Delete task</button>
+            </div>
+        </div> -->
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
